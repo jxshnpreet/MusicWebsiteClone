@@ -3,7 +3,7 @@ import { Meteors } from "@/components/Ui/meteors";
 import { BackgroundBeams } from "@/components/Ui/background-beams";
 import { FormEvent, useState } from "react";
 
-function page() {
+function Page() {
 const [email, setEmail] = useState("");
   const [message, setMessage] = useState('');
 
@@ -52,4 +52,4 @@ const [email, setEmail] = useState("");
   )
 }
 
-export default page;
+export default Page;
